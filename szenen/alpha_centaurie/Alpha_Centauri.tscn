@@ -1,0 +1,426 @@
+[gd_scene load_steps=254 format=2]
+
+[ext_resource path="res://animation/run/12a-run_47.png" type="Texture" id=1]
+[ext_resource path="res://animation/run/12a-run_25.png" type="Texture" id=2]
+[ext_resource path="res://animation/run/12a-run_48.png" type="Texture" id=3]
+[ext_resource path="res://animation/run/12a-run_49.png" type="Texture" id=4]
+[ext_resource path="res://animation/run/12a-run_36.png" type="Texture" id=5]
+[ext_resource path="res://animation/run/12a-run_43.png" type="Texture" id=6]
+[ext_resource path="res://animation/run/12a-run_44.png" type="Texture" id=7]
+[ext_resource path="res://animation/run/12a-run_45.png" type="Texture" id=8]
+[ext_resource path="res://animation/run/12a-run_50.png" type="Texture" id=9]
+[ext_resource path="res://animation/run/12a-run_42.png" type="Texture" id=10]
+[ext_resource path="res://animation/run/12a-run_11.png" type="Texture" id=11]
+[ext_resource path="res://animation/run/12a-run_21.png" type="Texture" id=12]
+[ext_resource path="res://animation/run/12a-run_38.png" type="Texture" id=13]
+[ext_resource path="res://animation/run/12a-run_34.png" type="Texture" id=14]
+[ext_resource path="res://animation/run/12a-run_37.png" type="Texture" id=15]
+[ext_resource path="res://animation/run/12a-run_32.png" type="Texture" id=16]
+[ext_resource path="res://animation/run/12a-run_13.png" type="Texture" id=17]
+[ext_resource path="res://animation/run/12a-run_23.png" type="Texture" id=18]
+[ext_resource path="res://animation/run/12a-run_41.png" type="Texture" id=19]
+[ext_resource path="res://animation/run/12a-run_28.png" type="Texture" id=20]
+[ext_resource path="res://animation/run/12a-run_46.png" type="Texture" id=21]
+[ext_resource path="res://animation/idle/12a-idle_25.png" type="Texture" id=22]
+[ext_resource path="res://animation/run/12a-run_20.png" type="Texture" id=23]
+[ext_resource path="res://animation/idle/12a-idle_34.png" type="Texture" id=24]
+[ext_resource path="res://animation/idle/12a-idle_26.png" type="Texture" id=25]
+[ext_resource path="res://animation/run/12a-run_30.png" type="Texture" id=26]
+[ext_resource path="res://animation/run/12a-run_8.png" type="Texture" id=27]
+[ext_resource path="res://animation/run/12a-run_57.png" type="Texture" id=28]
+[ext_resource path="res://animation/idle/12a-idle_52.png" type="Texture" id=29]
+[ext_resource path="res://animation/idle/12a-idle_53.png" type="Texture" id=30]
+[ext_resource path="res://animation/run/12a-run_7.png" type="Texture" id=31]
+[ext_resource path="res://animation/run/12a-run_10.png" type="Texture" id=32]
+[ext_resource path="res://animation/run/12a-run_14.png" type="Texture" id=33]
+[ext_resource path="res://animation/run/12a-run_56.png" type="Texture" id=34]
+[ext_resource path="res://animation/idle/12a-idle_41.png" type="Texture" id=35]
+[ext_resource path="res://animation/run/12a-run_5.png" type="Texture" id=36]
+[ext_resource path="res://animation/run/12a-run_19.png" type="Texture" id=37]
+[ext_resource path="res://animation/run/12a-run_12.png" type="Texture" id=38]
+[ext_resource path="res://animation/run/12a-run_0.png" type="Texture" id=39]
+[ext_resource path="res://animation/run/12a-run_33.png" type="Texture" id=40]
+[ext_resource path="res://animation/run/12a-run_35.png" type="Texture" id=41]
+[ext_resource path="res://animation/run/12a-run_54.png" type="Texture" id=42]
+[ext_resource path="res://animation/run/12a-run_53.png" type="Texture" id=43]
+[ext_resource path="res://animation/run/12a-run_39.png" type="Texture" id=44]
+[ext_resource path="res://animation/run/12a-run_52.png" type="Texture" id=45]
+[ext_resource path="res://animation/run/12a-run_40.png" type="Texture" id=46]
+[ext_resource path="res://animation/run/12a-run_58.png" type="Texture" id=47]
+[ext_resource path="res://animation/idle/12a-idle_6.png" type="Texture" id=48]
+[ext_resource path="res://animation/run/12a-run_6.png" type="Texture" id=49]
+[ext_resource path="res://animation/idle/12a-idle_14.png" type="Texture" id=50]
+[ext_resource path="res://animation/idle/12a-idle_35.png" type="Texture" id=51]
+[ext_resource path="res://animation/idle/12a-idle_7.png" type="Texture" id=52]
+[ext_resource path="res://animation/idle/12a-idle_10.png" type="Texture" id=53]
+[ext_resource path="res://animation/idle/12a-idle_59.png" type="Texture" id=54]
+[ext_resource path="res://animation/idle/12a-idle_39.png" type="Texture" id=55]
+[ext_resource path="res://animation/idle/12a-idle_22.png" type="Texture" id=56]
+[ext_resource path="res://animation/idle/12a-idle_2.png" type="Texture" id=57]
+[ext_resource path="res://animation/run/12a-run_51.png" type="Texture" id=58]
+[ext_resource path="res://animation/run/12a-run_26.png" type="Texture" id=59]
+[ext_resource path="res://animation/run/12a-run_1.png" type="Texture" id=60]
+[ext_resource path="res://animation/run/12a-run_24.png" type="Texture" id=61]
+[ext_resource path="res://animation/run/12a-run_27.png" type="Texture" id=62]
+[ext_resource path="res://animation/run/12a-run_29.png" type="Texture" id=63]
+[ext_resource path="res://animation/run/12a-run_3.png" type="Texture" id=64]
+[ext_resource path="res://animation/run/12a-run_16.png" type="Texture" id=65]
+[ext_resource path="res://animation/run/12a-run_60.png" type="Texture" id=66]
+[ext_resource path="res://animation/run/12a-run_31.png" type="Texture" id=67]
+[ext_resource path="res://animation/run/12a-run_59.png" type="Texture" id=68]
+[ext_resource path="res://animation/run/12a-run_55.png" type="Texture" id=69]
+[ext_resource path="res://animation/idle/12a-idle_40.png" type="Texture" id=70]
+[ext_resource path="res://animation/run/12a-run_18.png" type="Texture" id=71]
+[ext_resource path="res://animation/run/12a-run_9.png" type="Texture" id=72]
+[ext_resource path="res://animation/idle/12a-idle_31.png" type="Texture" id=73]
+[ext_resource path="res://animation/idle/12a-idle_37.png" type="Texture" id=74]
+[ext_resource path="res://animation/run/12a-run_15.png" type="Texture" id=75]
+[ext_resource path="res://animation/idle/12a-idle_15.png" type="Texture" id=76]
+[ext_resource path="res://animation/idle/12a-idle_47.png" type="Texture" id=77]
+[ext_resource path="res://animation/idle/12a-idle_48.png" type="Texture" id=78]
+[ext_resource path="res://animation/idle/12a-idle_49.png" type="Texture" id=79]
+[ext_resource path="res://animation/run/12a-run_17.png" type="Texture" id=80]
+[ext_resource path="res://animation/run/12a-run_2.png" type="Texture" id=81]
+[ext_resource path="res://animation/run/12a-run_4.png" type="Texture" id=82]
+[ext_resource path="res://animation/run/12a-run_22.png" type="Texture" id=83]
+[ext_resource path="res://animation/idle/12a-idle_58.png" type="Texture" id=84]
+[ext_resource path="res://animation/idle/12a-idle_19.png" type="Texture" id=85]
+[ext_resource path="res://animation/idle/12a-idle_21.png" type="Texture" id=86]
+[ext_resource path="res://animation/idle/12a-idle_9.png" type="Texture" id=87]
+[ext_resource path="res://animation/idle/12a-idle_4.png" type="Texture" id=88]
+[ext_resource path="res://animation/idle/12a-idle_50.png" type="Texture" id=89]
+[ext_resource path="res://animation/idle/12a-idle_11.png" type="Texture" id=90]
+[ext_resource path="res://animation/idle/12a-idle_54.png" type="Texture" id=91]
+[ext_resource path="res://animation/jump/12a-jump_33.png" type="Texture" id=92]
+[ext_resource path="res://animation/jump/12a-jump_56.png" type="Texture" id=93]
+[ext_resource path="res://animation/floating/12a-floating_27.png" type="Texture" id=94]
+[ext_resource path="res://animation/floating/12a-floating_43.png" type="Texture" id=95]
+[ext_resource path="res://animation/jump/12a-jump_18.png" type="Texture" id=96]
+[ext_resource path="res://animation/floating/12a-floating_52.png" type="Texture" id=97]
+[ext_resource path="res://animation/jump/12a-jump_6.png" type="Texture" id=98]
+[ext_resource path="res://animation/jump/12a-jump_4.png" type="Texture" id=99]
+[ext_resource path="res://animation/jump/12a-jump_15.png" type="Texture" id=100]
+[ext_resource path="res://animation/jump/12a-jump_24.png" type="Texture" id=101]
+[ext_resource path="res://animation/jump/12a-jump_23.png" type="Texture" id=102]
+[ext_resource path="res://animation/floating/12a-floating_54.png" type="Texture" id=103]
+[ext_resource path="res://animation/jump/12a-jump_37.png" type="Texture" id=104]
+[ext_resource path="res://animation/jump/12a-jump_36.png" type="Texture" id=105]
+[ext_resource path="res://animation/jump/12a-jump_53.png" type="Texture" id=106]
+[ext_resource path="res://animation/jump/12a-jump_50.png" type="Texture" id=107]
+[ext_resource path="res://animation/jump/12a-jump_35.png" type="Texture" id=108]
+[ext_resource path="res://animation/floating/12a-floating_53.png" type="Texture" id=109]
+[ext_resource path="res://animation/floating/12a-floating_59.png" type="Texture" id=110]
+[ext_resource path="res://animation/floating/12a-floating_44.png" type="Texture" id=111]
+[ext_resource path="res://animation/floating/12a-floating_60.png" type="Texture" id=112]
+[ext_resource path="res://animation/floating/12a-floating_56.png" type="Texture" id=113]
+[ext_resource path="res://animation/jump/12a-jump_8.png" type="Texture" id=114]
+[ext_resource path="res://animation/jump/12a-jump_2.png" type="Texture" id=115]
+[ext_resource path="res://animation/floating/12a-floating_50.png" type="Texture" id=116]
+[ext_resource path="res://animation/jump/12a-jump_12.png" type="Texture" id=117]
+[ext_resource path="res://animation/jump/12a-jump_44.png" type="Texture" id=118]
+[ext_resource path="res://animation/jump/12a-jump_3.png" type="Texture" id=119]
+[ext_resource path="res://animation/jump/12a-jump_14.png" type="Texture" id=120]
+[ext_resource path="res://animation/jump/12a-jump_22.png" type="Texture" id=121]
+[ext_resource path="res://animation/jump/12a-jump_48.png" type="Texture" id=122]
+[ext_resource path="res://animation/jump/12a-jump_51.png" type="Texture" id=123]
+[ext_resource path="res://animation/jump/12a-jump_59.png" type="Texture" id=124]
+[ext_resource path="res://animation/jump/12a-jump_58.png" type="Texture" id=125]
+[ext_resource path="res://animation/jump/12a-jump_46.png" type="Texture" id=126]
+[ext_resource path="res://animation/jump/12a-jump_16.png" type="Texture" id=127]
+[ext_resource path="res://animation/jump/12a-jump_39.png" type="Texture" id=128]
+[ext_resource path="res://animation/jump/12a-jump_41.png" type="Texture" id=129]
+[ext_resource path="res://animation/jump/12a-jump_34.png" type="Texture" id=130]
+[ext_resource path="res://animation/floating/12a-floating_57.png" type="Texture" id=131]
+[ext_resource path="res://animation/floating/12a-floating_42.png" type="Texture" id=132]
+[ext_resource path="res://animation/floating/12a-floating_41.png" type="Texture" id=133]
+[ext_resource path="res://animation/jump/12a-jump_55.png" type="Texture" id=134]
+[ext_resource path="res://animation/floating/12a-floating_58.png" type="Texture" id=135]
+[ext_resource path="res://animation/floating/12a-floating_51.png" type="Texture" id=136]
+[ext_resource path="res://animation/floating/12a-floating_47.png" type="Texture" id=137]
+[ext_resource path="res://animation/jump/12a-jump_5.png" type="Texture" id=138]
+[ext_resource path="res://animation/floating/12a-floating_45.png" type="Texture" id=139]
+[ext_resource path="res://animation/jump/12a-jump_13.png" type="Texture" id=140]
+[ext_resource path="res://animation/jump/12a-jump_1.png" type="Texture" id=141]
+[ext_resource path="res://animation/floating/12a-floating_46.png" type="Texture" id=142]
+[ext_resource path="res://animation/jump/12a-jump_9.png" type="Texture" id=143]
+[ext_resource path="res://animation/floating/12a-floating_55.png" type="Texture" id=144]
+[ext_resource path="res://animation/jump/12a-jump_10.png" type="Texture" id=145]
+[ext_resource path="res://animation/jump/12a-jump_11.png" type="Texture" id=146]
+[ext_resource path="res://animation/jump/12a-jump_43.png" type="Texture" id=147]
+[ext_resource path="res://animation/jump/12a-jump_0.png" type="Texture" id=148]
+[ext_resource path="res://animation/jump/12a-jump_17.png" type="Texture" id=149]
+[ext_resource path="res://animation/floating/12a-floating_40.png" type="Texture" id=150]
+[ext_resource path="res://animation/jump/12a-jump_7.png" type="Texture" id=151]
+[ext_resource path="res://animation/floating/12a-floating_49.png" type="Texture" id=152]
+[ext_resource path="res://animation/jump/12a-jump_52.png" type="Texture" id=153]
+[ext_resource path="res://animation/floating/12a-floating_48.png" type="Texture" id=154]
+[ext_resource path="res://animation/jump/12a-jump_54.png" type="Texture" id=155]
+[ext_resource path="res://animation/jump/12a-jump_27.png" type="Texture" id=156]
+[ext_resource path="res://animation/jump/12a-jump_57.png" type="Texture" id=157]
+[ext_resource path="res://animation/jump/12a-jump_28.png" type="Texture" id=158]
+[ext_resource path="res://animation/jump/12a-jump_31.png" type="Texture" id=159]
+[ext_resource path="res://animation/jump/12a-jump_26.png" type="Texture" id=160]
+[ext_resource path="res://animation/jump/12a-jump_60.png" type="Texture" id=161]
+[ext_resource path="res://animation/idle/12a-idle_44.png" type="Texture" id=162]
+[ext_resource path="res://animation/idle/12a-idle_13.png" type="Texture" id=163]
+[ext_resource path="res://animation/idle/12a-idle_38.png" type="Texture" id=164]
+[ext_resource path="res://animation/idle/12a-idle_5.png" type="Texture" id=165]
+[ext_resource path="res://animation/idle/12a-idle_36.png" type="Texture" id=166]
+[ext_resource path="res://animation/idle/12a-idle_18.png" type="Texture" id=167]
+[ext_resource path="res://animation/idle/12a-idle_56.png" type="Texture" id=168]
+[ext_resource path="res://animation/idle/12a-idle_8.png" type="Texture" id=169]
+[ext_resource path="res://animation/idle/12a-idle_0.png" type="Texture" id=170]
+[ext_resource path="res://animation/idle/12a-idle_27.png" type="Texture" id=171]
+[ext_resource path="res://animation/idle/12a-idle_20.png" type="Texture" id=172]
+[ext_resource path="res://animation/idle/12a-idle_45.png" type="Texture" id=173]
+[ext_resource path="res://animation/idle/12a-idle_51.png" type="Texture" id=174]
+[ext_resource path="res://animation/floating/12a-floating_0.png" type="Texture" id=175]
+[ext_resource path="res://animation/floating/12a-floating_4.png" type="Texture" id=176]
+[ext_resource path="res://animation/floating/12a-floating_17.png" type="Texture" id=177]
+[ext_resource path="res://animation/floating/12a-floating_31.png" type="Texture" id=178]
+[ext_resource path="res://animation/floating/12a-floating_10.png" type="Texture" id=179]
+[ext_resource path="res://animation/idle/12a-idle_55.png" type="Texture" id=180]
+[ext_resource path="res://animation/idle/12a-idle_46.png" type="Texture" id=181]
+[ext_resource path="res://animation/idle/12a-idle_28.png" type="Texture" id=182]
+[ext_resource path="res://animation/idle/12a-idle_24.png" type="Texture" id=183]
+[ext_resource path="res://animation/idle/12a-idle_42.png" type="Texture" id=184]
+[ext_resource path="res://animation/idle/12a-idle_57.png" type="Texture" id=185]
+[ext_resource path="res://animation/floating/12a-floating_8.png" type="Texture" id=186]
+[ext_resource path="res://animation/floating/12a-floating_25.png" type="Texture" id=187]
+[ext_resource path="res://animation/floating/12a-floating_33.png" type="Texture" id=188]
+[ext_resource path="res://animation/floating/12a-floating_35.png" type="Texture" id=189]
+[ext_resource path="res://animation/idle/12a-idle_29.png" type="Texture" id=190]
+[ext_resource path="res://animation/floating/12a-floating_6.png" type="Texture" id=191]
+[ext_resource path="res://animation/idle/12a-idle_30.png" type="Texture" id=192]
+[ext_resource path="res://animation/idle/12a-idle_12.png" type="Texture" id=193]
+[ext_resource path="res://animation/floating/12a-floating_9.png" type="Texture" id=194]
+[ext_resource path="res://animation/floating/12a-floating_13.png" type="Texture" id=195]
+[ext_resource path="res://animation/floating/12a-floating_26.png" type="Texture" id=196]
+[ext_resource path="res://animation/floating/12a-floating_16.png" type="Texture" id=197]
+[ext_resource path="res://animation/floating/12a-floating_30.png" type="Texture" id=198]
+[ext_resource path="res://animation/idle/12a-idle_32.png" type="Texture" id=199]
+[ext_resource path="res://animation/floating/12a-floating_22.png" type="Texture" id=200]
+[ext_resource path="res://animation/floating/12a-floating_3.png" type="Texture" id=201]
+[ext_resource path="res://animation/floating/12a-floating_19.png" type="Texture" id=202]
+[ext_resource path="res://animation/floating/12a-floating_32.png" type="Texture" id=203]
+[ext_resource path="res://animation/floating/12a-floating_29.png" type="Texture" id=204]
+[ext_resource path="res://animation/floating/12a-floating_2.png" type="Texture" id=205]
+[ext_resource path="res://animation/floating/12a-floating_24.png" type="Texture" id=206]
+[ext_resource path="res://animation/floating/12a-floating_12.png" type="Texture" id=207]
+[ext_resource path="res://animation/floating/12a-floating_14.png" type="Texture" id=208]
+[ext_resource path="res://animation/floating/12a-floating_36.png" type="Texture" id=209]
+[ext_resource path="res://animation/idle/12a-idle_3.png" type="Texture" id=210]
+[ext_resource path="res://animation/idle/12a-idle_60.png" type="Texture" id=211]
+[ext_resource path="res://animation/floating/12a-floating_5.png" type="Texture" id=212]
+[ext_resource path="res://animation/floating/12a-floating_37.png" type="Texture" id=213]
+[ext_resource path="res://animation/floating/12a-floating_11.png" type="Texture" id=214]
+[ext_resource path="res://animation/floating/12a-floating_18.png" type="Texture" id=215]
+[ext_resource path="res://animation/floating/12a-floating_28.png" type="Texture" id=216]
+[ext_resource path="res://animation/floating/12a-floating_1.png" type="Texture" id=217]
+[ext_resource path="res://animation/idle/12a-idle_33.png" type="Texture" id=218]
+[ext_resource path="res://animation/floating/12a-floating_39.png" type="Texture" id=219]
+[ext_resource path="res://animation/floating/12a-floating_15.png" type="Texture" id=220]
+[ext_resource path="res://animation/idle/12a-idle_16.png" type="Texture" id=221]
+[ext_resource path="res://animation/idle/12a-idle_1.png" type="Texture" id=222]
+[ext_resource path="res://animation/idle/12a-idle_43.png" type="Texture" id=223]
+[ext_resource path="res://animation/idle/12a-idle_23.png" type="Texture" id=224]
+[ext_resource path="res://animation/idle/12a-idle_17.png" type="Texture" id=225]
+[ext_resource path="res://animation/floating/12a-floating_38.png" type="Texture" id=226]
+[ext_resource path="res://animation/floating/12a-floating_20.png" type="Texture" id=227]
+[ext_resource path="res://animation/floating/12a-floating_23.png" type="Texture" id=228]
+[ext_resource path="res://animation/floating/12a-floating_34.png" type="Texture" id=229]
+[ext_resource path="res://animation/floating/12a-floating_7.png" type="Texture" id=230]
+[ext_resource path="res://animation/floating/12a-floating_21.png" type="Texture" id=231]
+[ext_resource path="res://animation/jump/12a-jump_25.png" type="Texture" id=232]
+[ext_resource path="res://gfx/Free-Wall-Texture.jpg" type="Texture" id=233]
+[ext_resource path="res://animation/jump/12a-jump_30.png" type="Texture" id=234]
+[ext_resource path="res://gfx/proximacenb_art.jpg" type="Texture" id=235]
+[ext_resource path="res://animation/jump/12a-jump_19.png" type="Texture" id=236]
+[ext_resource path="res://animation/jump/12a-jump_40.png" type="Texture" id=237]
+[ext_resource path="res://animation/jump/12a-jump_21.png" type="Texture" id=238]
+[ext_resource path="res://animation/jump/12a-jump_47.png" type="Texture" id=239]
+[ext_resource path="res://animation/jump/12a-jump_42.png" type="Texture" id=240]
+[ext_resource path="res://animation/jump/12a-jump_45.png" type="Texture" id=241]
+[ext_resource path="res://animation/jump/12a-jump_32.png" type="Texture" id=242]
+[ext_resource path="res://animation/jump/12a-jump_49.png" type="Texture" id=243]
+[ext_resource path="res://animation/jump/12a-jump_38.png" type="Texture" id=244]
+[ext_resource path="res://animation/jump/12a-jump_29.png" type="Texture" id=245]
+[ext_resource path="res://animation/jump/12a-jump_20.png" type="Texture" id=246]
+[ext_resource path="res://gfx/plattform.png" type="Texture" id=247]
+[ext_resource path="res://szenen/alpha_centaurie/Player.gd" type="Script" id=248]
+
+[sub_resource type="SpriteFrames" id=1]
+animations = [ {
+"frames": [ ExtResource( 170 ), ExtResource( 222 ), ExtResource( 57 ), ExtResource( 210 ), ExtResource( 88 ), ExtResource( 165 ), ExtResource( 48 ), ExtResource( 52 ), ExtResource( 169 ), ExtResource( 87 ), ExtResource( 53 ), ExtResource( 90 ), ExtResource( 193 ), ExtResource( 163 ), ExtResource( 50 ), ExtResource( 76 ), ExtResource( 221 ), ExtResource( 225 ), ExtResource( 167 ), ExtResource( 85 ), ExtResource( 172 ), ExtResource( 86 ), ExtResource( 56 ), ExtResource( 224 ), ExtResource( 183 ), ExtResource( 22 ), ExtResource( 25 ), ExtResource( 171 ), ExtResource( 182 ), ExtResource( 190 ), ExtResource( 192 ), ExtResource( 73 ), ExtResource( 199 ), ExtResource( 218 ), ExtResource( 24 ), ExtResource( 51 ), ExtResource( 166 ), ExtResource( 74 ), ExtResource( 164 ), ExtResource( 55 ), ExtResource( 70 ), ExtResource( 35 ), ExtResource( 184 ), ExtResource( 223 ), ExtResource( 162 ), ExtResource( 173 ), ExtResource( 181 ), ExtResource( 77 ), ExtResource( 78 ), ExtResource( 79 ), ExtResource( 89 ), ExtResource( 174 ), ExtResource( 29 ), ExtResource( 30 ), ExtResource( 91 ), ExtResource( 180 ), ExtResource( 168 ), ExtResource( 185 ), ExtResource( 84 ), ExtResource( 54 ), ExtResource( 211 ) ],
+"loop": true,
+"name": "idle",
+"speed": 30.0
+}, {
+"frames": [ ExtResource( 39 ), ExtResource( 60 ), ExtResource( 81 ), ExtResource( 64 ), ExtResource( 82 ), ExtResource( 36 ), ExtResource( 49 ), ExtResource( 31 ), ExtResource( 27 ), ExtResource( 72 ), ExtResource( 32 ), ExtResource( 11 ), ExtResource( 38 ), ExtResource( 17 ), ExtResource( 33 ), ExtResource( 75 ), ExtResource( 65 ), ExtResource( 80 ), ExtResource( 71 ), ExtResource( 37 ), ExtResource( 23 ), ExtResource( 12 ), ExtResource( 83 ), ExtResource( 18 ), ExtResource( 61 ), ExtResource( 2 ), ExtResource( 59 ), ExtResource( 62 ), ExtResource( 20 ), ExtResource( 63 ), ExtResource( 26 ), ExtResource( 67 ), ExtResource( 16 ), ExtResource( 40 ), ExtResource( 14 ), ExtResource( 41 ), ExtResource( 5 ), ExtResource( 15 ), ExtResource( 13 ), ExtResource( 44 ), ExtResource( 46 ), ExtResource( 19 ), ExtResource( 10 ), ExtResource( 6 ), ExtResource( 7 ), ExtResource( 8 ), ExtResource( 21 ), ExtResource( 1 ), ExtResource( 3 ), ExtResource( 4 ), ExtResource( 9 ), ExtResource( 58 ), ExtResource( 45 ), ExtResource( 43 ), ExtResource( 42 ), ExtResource( 69 ), ExtResource( 34 ), ExtResource( 28 ), ExtResource( 47 ), ExtResource( 68 ), ExtResource( 66 ) ],
+"loop": true,
+"name": "run",
+"speed": 30.0
+}, {
+"frames": [ ExtResource( 175 ), ExtResource( 217 ), ExtResource( 205 ), ExtResource( 201 ), ExtResource( 176 ), ExtResource( 212 ), ExtResource( 191 ), ExtResource( 230 ), ExtResource( 186 ), ExtResource( 194 ), ExtResource( 179 ), ExtResource( 214 ), ExtResource( 207 ), ExtResource( 195 ), ExtResource( 208 ), ExtResource( 220 ), ExtResource( 197 ), ExtResource( 177 ), ExtResource( 215 ), ExtResource( 202 ), ExtResource( 227 ), ExtResource( 231 ), ExtResource( 200 ), ExtResource( 228 ), ExtResource( 206 ), ExtResource( 187 ), ExtResource( 196 ), ExtResource( 94 ), ExtResource( 216 ), ExtResource( 204 ), ExtResource( 198 ), ExtResource( 178 ), ExtResource( 203 ), ExtResource( 188 ), ExtResource( 229 ), ExtResource( 189 ), ExtResource( 209 ), ExtResource( 213 ), ExtResource( 226 ), ExtResource( 219 ), ExtResource( 150 ), ExtResource( 133 ), ExtResource( 132 ), ExtResource( 95 ), ExtResource( 111 ), ExtResource( 139 ), ExtResource( 142 ), ExtResource( 137 ), ExtResource( 154 ), ExtResource( 152 ), ExtResource( 116 ), ExtResource( 136 ), ExtResource( 97 ), ExtResource( 109 ), ExtResource( 103 ), ExtResource( 144 ), ExtResource( 113 ), ExtResource( 131 ), ExtResource( 135 ), ExtResource( 110 ), ExtResource( 112 ) ],
+"loop": true,
+"name": "floating",
+"speed": 30.0
+}, {
+"frames": [ ExtResource( 148 ), ExtResource( 141 ), ExtResource( 115 ), ExtResource( 119 ), ExtResource( 99 ), ExtResource( 138 ), ExtResource( 98 ), ExtResource( 151 ), ExtResource( 114 ), ExtResource( 143 ), ExtResource( 145 ), ExtResource( 146 ), ExtResource( 117 ), ExtResource( 140 ), ExtResource( 120 ), ExtResource( 100 ), ExtResource( 127 ), ExtResource( 149 ), ExtResource( 96 ), ExtResource( 236 ), ExtResource( 246 ), ExtResource( 238 ), ExtResource( 121 ), ExtResource( 102 ), ExtResource( 101 ), ExtResource( 232 ), ExtResource( 160 ), ExtResource( 156 ), ExtResource( 158 ), ExtResource( 245 ), ExtResource( 234 ), ExtResource( 159 ), ExtResource( 242 ), ExtResource( 92 ), ExtResource( 130 ), ExtResource( 108 ), ExtResource( 105 ), ExtResource( 104 ), ExtResource( 244 ), ExtResource( 128 ), ExtResource( 237 ), ExtResource( 129 ), ExtResource( 240 ), ExtResource( 147 ), ExtResource( 118 ), ExtResource( 241 ), ExtResource( 126 ), ExtResource( 239 ), ExtResource( 122 ), ExtResource( 243 ), ExtResource( 107 ), ExtResource( 123 ), ExtResource( 153 ), ExtResource( 106 ), ExtResource( 155 ), ExtResource( 134 ), ExtResource( 93 ), ExtResource( 157 ), ExtResource( 125 ), ExtResource( 124 ), ExtResource( 161 ) ],
+"loop": false,
+"name": "jump",
+"speed": 30.0
+} ]
+
+[sub_resource type="RectangleShape2D" id=2]
+extents = Vector2( 32, 7.63354 )
+
+[sub_resource type="ShaderMaterial" id=3]
+
+[sub_resource type="RectangleShape2D" id=4]
+extents = Vector2( 1592, 16 )
+
+[sub_resource type="RectangleShape2D" id=5]
+extents = Vector2( 192, 8 )
+
+[node name="WorldRoot" type="Node2D"]
+
+[node name="Player" type="KinematicBody2D" parent="."]
+position = Vector2( 176, 512 )
+script = ExtResource( 248 )
+__meta__ = {
+"_edit_group_": true
+}
+rechts = 333
+links = -333
+
+[node name="AnimatedSprite" type="AnimatedSprite" parent="Player"]
+scale = Vector2( 0.15, 0.15 )
+z_index = 3
+frames = SubResource( 1 )
+animation = "idle"
+speed_scale = 5.0
+
+[node name="Camera2D" type="Camera2D" parent="Player"]
+position = Vector2( -1, -1 )
+current = true
+zoom = Vector2( 2, 2 )
+offset_v = 1.0
+
+[node name="CollisionFeet" type="CollisionShape2D" parent="Player"]
+position = Vector2( -1.04956, 52.0049 )
+z_index = 2
+z_as_relative = false
+shape = SubResource( 2 )
+one_way_collision = true
+one_way_collision_margin = 66.0
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+position = Vector2( 744, 896 )
+
+[node name="Boden" type="Sprite" parent="StaticBody2D"]
+modulate = Color( 0.988235, 0.0352941, 0.0352941, 1 )
+material = SubResource( 3 )
+position = Vector2( -6.10352e-05, 6.10352e-05 )
+scale = Vector2( 5.34667, 0.08 )
+texture = ExtResource( 233 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
+shape = SubResource( 4 )
+
+[node name="proximacenb_art" type="Sprite" parent="."]
+position = Vector2( 1072, -40 )
+scale = Vector2( 3.50263, 3.33125 )
+z_index = -10
+z_as_relative = false
+texture = ExtResource( 235 )
+
+[node name="platfrm" type="Node" parent="."]
+
+[node name="boden" type="Node" parent="."]
+
+[node name="boden1" type="StaticBody2D" parent="boden"]
+position = Vector2( 576, 592 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="boden/boden1"]
+position = Vector2( 0, -8 )
+shape = SubResource( 5 )
+
+[node name="TextureRect" type="TextureRect" parent="boden/boden1"]
+margin_left = -192.0
+margin_top = -16.0
+margin_right = 192.0
+margin_bottom = 8.0
+texture = ExtResource( 247 )
+expand = true
+stretch_mode = 2
+flip_h = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="boden2" type="StaticBody2D" parent="boden"]
+position = Vector2( 192, 592 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="boden/boden2"]
+position = Vector2( 0, -8 )
+shape = SubResource( 5 )
+
+[node name="TextureRect" type="TextureRect" parent="boden/boden2"]
+margin_left = -192.0
+margin_top = -16.0
+margin_right = 192.0
+margin_bottom = 8.0
+texture = ExtResource( 247 )
+expand = true
+stretch_mode = 2
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="boden3" type="StaticBody2D" parent="boden"]
+position = Vector2( 384, 784 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="boden/boden3"]
+position = Vector2( 0, -8 )
+shape = SubResource( 5 )
+
+[node name="TextureRect" type="TextureRect" parent="boden/boden3"]
+margin_left = -192.0
+margin_top = -16.0
+margin_right = 192.0
+margin_bottom = 8.0
+texture = ExtResource( 247 )
+expand = true
+stretch_mode = 2
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="boden4" type="StaticBody2D" parent="boden"]
+position = Vector2( 240, 640 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="boden/boden4"]
+position = Vector2( 48, 48 )
+shape = SubResource( 5 )
+
+[node name="TextureRect" type="TextureRect" parent="boden/boden4"]
+margin_left = -144.0
+margin_top = 40.0
+margin_right = 240.0
+margin_bottom = 64.0
+texture = ExtResource( 247 )
+expand = true
+stretch_mode = 2
+__meta__ = {
+"_edit_use_anchors_": false
+}
