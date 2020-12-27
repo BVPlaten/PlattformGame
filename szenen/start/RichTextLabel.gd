@@ -12,7 +12,7 @@ func _ready():
 
 func _init():
 	add_child(timer)
-	timer.wait_time = 2
+	timer.wait_time = 1
 	timer.connect("timeout",self,"_on_timer_timeout")
 	
 
