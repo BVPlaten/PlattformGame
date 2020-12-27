@@ -16,12 +16,16 @@ func _init():
 	timer.connect("timeout",self,"_on_timer_timeout")
 	
 
-func _on_TextureButton_pressed():
-	# get_node("..").cnt
-	text = "Wurde gedrückt"	
+func _on_StartBtn_pressed():
+	text = "Starte das Spiel"
 	timer.start()
 
+func _on_EndBtn_pressed():
+	pass 
+	
 
 func _on_timer_timeout():
 	text = ""
+	get_tree().change_scene("res://szenen/alpha_centaurie/Alpha_Centauri.tscn")
+
 	
