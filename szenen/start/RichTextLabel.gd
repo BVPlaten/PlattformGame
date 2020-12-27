@@ -1,9 +1,7 @@
 extends RichTextLabel
 
 
-# Declare member variables here. Examples:
-# var a = 2
-# var b = "text"
+# https://github.com/BVPlaten/PlattformGame
 var timer = Timer.new()
 
 # Called when the node enters the scene tree for the first time.
