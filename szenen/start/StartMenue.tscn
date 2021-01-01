@@ -19,22 +19,33 @@ margin_right = 448.0
 margin_bottom = 96.0
 script = ExtResource( 3 )
 
-[node name="StartBtn" type="ToolButton" parent="."]
+[node name="PlattfomBtn" type="ToolButton" parent="."]
 margin_left = 768.0
-margin_top = 312.0
+margin_top = 56.0
 margin_right = 960.0
-margin_bottom = 376.0
-text = "Start"
+margin_bottom = 120.0
+text = "Plattform"
+flat = false
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="PhysikTestBtn" type="ToolButton" parent="."]
+margin_left = 768.0
+margin_top = 152.0
+margin_right = 960.0
+margin_bottom = 216.0
+text = "PhysikTest"
 flat = false
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
 [node name="EndBtn" type="ToolButton" parent="."]
-margin_left = 768.0
-margin_top = 440.0
-margin_right = 960.0
-margin_bottom = 504.0
+margin_left = 1080.0
+margin_top = 520.0
+margin_right = 1272.0
+margin_bottom = 584.0
 text = "Beenden"
 flat = false
 __meta__ = {
@@ -45,5 +56,7 @@ __meta__ = {
 position = Vector2( 378, 184 )
 scale = Vector2( 0.855, 0.566667 )
 texture = ExtResource( 1 )
-[connection signal="pressed" from="StartBtn" to="RichTextLabel" method="_on_StartBtn_pressed"]
+[connection signal="pressed" from="PlattfomBtn" to="RichTextLabel" method="_on_StartBtn_pressed"]
+[connection signal="pressed" from="PhysikTestBtn" to="RichTextLabel" method="_on_StartBtn_pressed"]
+[connection signal="pressed" from="PhysikTestBtn" to="RichTextLabel" method="_on_PhysikTestBtn_pressed"]
 [connection signal="pressed" from="EndBtn" to="RichTextLabel" method="_on_EndBtn_pressed"]

@@ -17,7 +17,7 @@ _global_script_class_icons={
 
 config/name="PlatformGame"
 run/main_scene="res://szenen/start/StartMenue.tscn"
-config/icon="res://icon.png"
+config/icon="res://gfx/icon.png"
 
 [display]
 
