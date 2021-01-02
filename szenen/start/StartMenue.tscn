@@ -1,13 +1,36 @@
-[gd_scene load_steps=3 format=2]
+[gd_scene load_steps=5 format=2]
 
 [ext_resource path="res://gfx/titelgrafik.png" type="Texture" id=1]
-[ext_resource path="res://szenen/start/RichTextLabel.gd" type="Script" id=3]
+[ext_resource path="res://szenen/start/StartMenue.gd" type="Script" id=2]
+
+[sub_resource type="Theme" id=1]
+
+[sub_resource type="GDScript" id=2]
+script/source = "extends RichTextLabel
+
+func _on_StartBtn_pressed():
+	get_tree().change_scene(\"res://szenen/alpha_centaurie/Alpha_Centauri.tscn\")
+
+func _on_PhysikTestBtn_pressed():
+	get_tree().change_scene(\"res://szenen/PhysikTest/PhysikTest.tscn\")
+
+
+
+func _on_EndBtn_pressed():
+	pass 
+
+
+func _on_EndButton_pressed(extra_arg_0):
+	pass # Replace with function body.
+"
 
 [node name="root" type="Control"]
 anchor_right = 1.0
 anchor_bottom = 1.0
 margin_top = 8.0
 margin_bottom = 8.0
+theme = SubResource( 1 )
+script = ExtResource( 2 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
@@ -17,46 +40,64 @@ margin_left = 136.0
 margin_top = 24.0
 margin_right = 448.0
 margin_bottom = 96.0
-script = ExtResource( 3 )
-
-[node name="PlattfomBtn" type="ToolButton" parent="."]
-margin_left = 768.0
-margin_top = 56.0
-margin_right = 960.0
-margin_bottom = 120.0
-text = "Plattform"
-flat = false
-__meta__ = {
-"_edit_use_anchors_": false
-}
-
-[node name="PhysikTestBtn" type="ToolButton" parent="."]
-margin_left = 768.0
-margin_top = 152.0
-margin_right = 960.0
-margin_bottom = 216.0
-text = "PhysikTest"
-flat = false
-__meta__ = {
-"_edit_use_anchors_": false
-}
-
-[node name="EndBtn" type="ToolButton" parent="."]
-margin_left = 1080.0
-margin_top = 520.0
-margin_right = 1272.0
-margin_bottom = 584.0
-text = "Beenden"
-flat = false
+script = SubResource( 2 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
 [node name="titelgrafik" type="Sprite" parent="."]
-position = Vector2( 378, 184 )
-scale = Vector2( 0.855, 0.566667 )
+position = Vector2( 501, 275 )
+scale = Vector2( 1.2075, 0.87 )
 texture = ExtResource( 1 )
-[connection signal="pressed" from="PlattfomBtn" to="RichTextLabel" method="_on_StartBtn_pressed"]
-[connection signal="pressed" from="PhysikTestBtn" to="RichTextLabel" method="_on_StartBtn_pressed"]
-[connection signal="pressed" from="PhysikTestBtn" to="RichTextLabel" method="_on_PhysikTestBtn_pressed"]
-[connection signal="pressed" from="EndBtn" to="RichTextLabel" method="_on_EndBtn_pressed"]
+
+[node name="JumpAndRunButton" type="Button" parent="."]
+margin_left = 1016.0
+margin_top = 40.0
+margin_right = 1160.0
+margin_bottom = 72.0
+text = "Jump & Run"
+clip_text = true
+expand_icon = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="PhysicButton" type="Button" parent="."]
+margin_left = 1016.0
+margin_top = 104.0
+margin_right = 1160.0
+margin_bottom = 136.0
+text = "Physics"
+clip_text = true
+expand_icon = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="PlanetInvaderButton" type="Button" parent="."]
+margin_left = 1016.0
+margin_top = 168.0
+margin_right = 1160.0
+margin_bottom = 200.0
+text = "Planet-Invarder"
+clip_text = true
+expand_icon = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="EndButton" type="Button" parent="."]
+margin_left = 1016.0
+margin_top = 488.0
+margin_right = 1160.0
+margin_bottom = 520.0
+text = "Ende"
+clip_text = true
+expand_icon = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+[connection signal="pressed" from="JumpAndRunButton" to="." method="_on_Button_pressed" binds= [ "JunpAndRun" ]]
+[connection signal="pressed" from="PhysicButton" to="." method="_on_Button_pressed" binds= [ "Physics" ]]
+[connection signal="pressed" from="PlanetInvaderButton" to="." method="_on_Button_pressed" binds= [ "PlanetInvarder" ]]
+[connection signal="pressed" from="EndButton" to="." method="_on_Button_pressed" binds= [ "End" ]]
