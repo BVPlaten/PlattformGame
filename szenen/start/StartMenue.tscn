@@ -97,6 +97,17 @@ expand_icon = true
 __meta__ = {
 "_edit_use_anchors_": false
 }
+
+[node name="Popup" type="Popup" parent="."]
+visible = true
+margin_left = 384.0
+margin_top = 96.0
+margin_right = 704.0
+margin_bottom = 248.0
+__meta__ = {
+"_edit_use_anchors_": false,
+"_editor_description_": "Soll das Spiel beendet werden ?"
+}
 [connection signal="pressed" from="JumpAndRunButton" to="." method="_on_Button_pressed" binds= [ "JunpAndRun" ]]
 [connection signal="pressed" from="PhysicButton" to="." method="_on_Button_pressed" binds= [ "Physics" ]]
 [connection signal="pressed" from="PlanetInvaderButton" to="." method="_on_Button_pressed" binds= [ "PlanetInvarder" ]]

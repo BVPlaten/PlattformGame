@@ -8,19 +8,11 @@ extends Control
 func _ready():
 	pass
 	
-	# get_tree().change_scene("res://szenen/PhysikTest/PhysikTest.tscn")
-
-# Called every frame. 'delta' is the elapsed time since the previous frame.
-#func _process(delta):
-#	pass
-
-
-
-
-
+func _process(delta):
+	if Input.is_action_pressed("ui_end"):
+		var pu = get_node("Popup")
+		pu.popup()
 	
-
-
 func _on_Button_pressed(extra_arg_0):
 	print(extra_arg_0)
 	match extra_arg_0:

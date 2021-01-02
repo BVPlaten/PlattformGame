@@ -9,19 +9,6 @@ extents = Vector2( 32, 32 )
 
 [node name="Node2D" type="Node2D"]
 
-[node name="Defender" type="Sprite" parent="."]
-position = Vector2( 664, 528 )
-texture = ExtResource( 2 )
-__meta__ = {
-"_edit_group_": true
-}
-
-[node name="DefenderBody2D" type="KinematicBody2D" parent="Defender"]
-script = ExtResource( 5 )
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Defender/DefenderBody2D"]
-shape = SubResource( 1 )
-
 [node name="Attacker" type="Sprite" parent="."]
 modulate = Color( 0.870588, 0.117647, 0.117647, 1 )
 position = Vector2( 672, 96 )
@@ -29,3 +16,16 @@ texture = ExtResource( 1 )
 __meta__ = {
 "_edit_group_": true
 }
+
+[node name="DefenderBody2D" type="KinematicBody2D" parent="."]
+position = Vector2( 672, 488 )
+script = ExtResource( 5 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="DefenderBody2D"]
+shape = SubResource( 1 )
+
+[node name="Defender" type="Sprite" parent="DefenderBody2D"]
+texture = ExtResource( 2 )

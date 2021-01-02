@@ -17,7 +17,9 @@ func _physics_process(delta):
 	bwgng.y += gravitation
 	var anim = get_node("AnimatedSprite")
 	
-	if Input.is_action_just_pressed("ui_up"):
+	if Input.is_action_pressed("ui_end"):
+		get_tree().change_scene("res://szenen/start/StartMenue.tscn")
+	elif Input.is_action_just_pressed("ui_up"):
 		if is_on_floor():
 			bwgng.y = sprung
 			animName = "jump"
