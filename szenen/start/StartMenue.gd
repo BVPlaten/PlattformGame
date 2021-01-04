@@ -24,6 +24,9 @@ func _on_Button_pressed(extra_arg_0):
 			get_tree().change_scene("res://szenen/PhysikTest/PhysikTest.tscn")
 		"PlanetInvarder":
 			get_tree().change_scene("res://szenen/PlanetInvader/PlanetInvader.tscn")
+		"Weiter":
+			var pu = get_node("Popup")
+			pu.hide()	
 
 
 

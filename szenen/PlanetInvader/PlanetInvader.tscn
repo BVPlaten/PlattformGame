@@ -1,31 +1,119 @@
-[gd_scene load_steps=5 format=2]
+[gd_scene load_steps=6 format=2]
 
 [ext_resource path="res://szenen/PlanetInvader/Attacker.png" type="Texture" id=1]
-[ext_resource path="res://szenen/PlanetInvader/Defender.png" type="Texture" id=2]
-[ext_resource path="res://szenen/PlanetInvader/DefenderBody2D.gd" type="Script" id=5]
+[ext_resource path="res://gfx/Free-Wall-Texture.jpg" type="Texture" id=3]
+[ext_resource path="res://szenen/PlanetInvader/DefenderKB2D.gd" type="Script" id=4]
 
 [sub_resource type="RectangleShape2D" id=1]
-extents = Vector2( 32, 32 )
+
+[sub_resource type="RectangleShape2D" id=2]
+extents = Vector2( 10, 0.8 )
 
 [node name="Node2D" type="Node2D"]
 
-[node name="Attacker" type="Sprite" parent="."]
+[node name="DefenderKB2D" type="KinematicBody2D" parent="."]
+script = ExtResource( 4 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Attacker" type="Sprite" parent="DefenderKB2D"]
 modulate = Color( 0.870588, 0.117647, 0.117647, 1 )
 position = Vector2( 672, 96 )
 texture = ExtResource( 1 )
-__meta__ = {
-"_edit_group_": true
-}
 
-[node name="DefenderBody2D" type="KinematicBody2D" parent="."]
-position = Vector2( 672, 488 )
-script = ExtResource( 5 )
-__meta__ = {
-"_edit_group_": true
-}
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="DefenderBody2D"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="DefenderKB2D"]
 shape = SubResource( 1 )
 
-[node name="Defender" type="Sprite" parent="DefenderBody2D"]
-texture = ExtResource( 2 )
+[node name="Camera2D" type="Camera2D" parent="DefenderKB2D"]
+position = Vector2( 672, 488 )
+current = true
+zoom = Vector2( 1.5, 1.5 )
+
+[node name="Border" type="Node2D" parent="."]
+
+[node name="GrenzeOben" type="StaticBody2D" parent="Border"]
+position = Vector2( 0, -5000 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Border/GrenzeOben"]
+scale = Vector2( 10000, 10 )
+shape = SubResource( 2 )
+
+[node name="TextureRect" type="TextureRect" parent="Border/GrenzeOben"]
+margin_left = -5000.0
+margin_top = -5.0
+margin_right = 5000.0
+margin_bottom = 5.0
+texture = ExtResource( 3 )
+expand = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="GrenzeUnten" type="StaticBody2D" parent="Border"]
+position = Vector2( 0, 5000 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Border/GrenzeUnten"]
+scale = Vector2( 10000, 10 )
+shape = SubResource( 2 )
+
+[node name="TextureRect" type="TextureRect" parent="Border/GrenzeUnten"]
+margin_left = -5000.0
+margin_top = -5.0
+margin_right = 5000.0
+margin_bottom = 5.0
+texture = ExtResource( 3 )
+expand = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="GrenzeLinks" type="StaticBody2D" parent="Border"]
+position = Vector2( -5000, 0 )
+rotation = -1.5708
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Border/GrenzeLinks"]
+scale = Vector2( 10000, 10 )
+shape = SubResource( 2 )
+
+[node name="TextureRect" type="TextureRect" parent="Border/GrenzeLinks"]
+margin_left = -5000.0
+margin_top = -5.0
+margin_right = 5000.0
+margin_bottom = 5.0
+texture = ExtResource( 3 )
+expand = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="GrenzeRechts" type="StaticBody2D" parent="Border"]
+position = Vector2( 5000, 0 )
+rotation = -1.5708
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Border/GrenzeRechts"]
+scale = Vector2( 10000, 10 )
+shape = SubResource( 2 )
+
+[node name="TextureRect" type="TextureRect" parent="Border/GrenzeRechts"]
+margin_left = -5000.0
+margin_top = -5.0
+margin_right = 5000.0
+margin_bottom = 5.0
+texture = ExtResource( 3 )
+expand = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
